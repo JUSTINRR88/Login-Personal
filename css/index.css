@@ -27,7 +27,7 @@
     font-size: 2rem;
 }
 
-.registro{
+.registro, .contra{
     grid-column-start: 2;
     grid-column-end: 4;
     font-size: 1.7rem;
@@ -35,20 +35,12 @@
     height: 90%;
     border: 0.1px solid black;
     cursor: pointer;
-
+    padding: 1rem;
 
 }
 .contra{
     grid-column-start: 2;
     grid-column-end: 4;
-    font-size: 1.7rem;
-    grid-row-start: 3;
-    border-radius: 0.5rem;
-    height: 90%;
-    border: 0.1px solid black;
-    cursor: pointer;
-
-
 }
 
 .registro:hover, .contra:hover{
